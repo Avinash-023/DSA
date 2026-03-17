@@ -10,7 +10,7 @@ class Solution {
             }
 
         }
-        System.out.println(map);
+        // System.out.println(map);
         int[] res=new int[queries.length];
         for(int i=0;i<queries.length;i++){
             if(queries[i]>count){
