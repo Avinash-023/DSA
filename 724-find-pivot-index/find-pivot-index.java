@@ -11,7 +11,6 @@ class Solution {
                 return i;
             }
         }
-        System.out.println(Arrays.toString(prefix));
         return -1;
 
     }
