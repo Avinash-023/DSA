@@ -1,7 +1,7 @@
 class Solution {
     public int findMinFibonacciNumbers(int k) {
         int[] nums=new int[45];
-        nums[0]=1;
+        nums[0]=0;
         nums[1]=1;
         int size=2;
         for(int i=2;i<nums.length;i++){
