@@ -7,9 +7,7 @@ class Solution {
             for(int j=0;j<cols;j++){
                 matrix[i][j]=encodedText.charAt(index);
                 index++;
-                // System.out.print(matrix[i][j]+" ");
             }
-            // System.out.println();
         }
         StringBuilder sb=new StringBuilder();
         for(int i=0;i<cols;i++){
