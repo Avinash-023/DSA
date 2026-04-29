@@ -1,6 +1,5 @@
 class Solution {
     public String freqAlphabets(String s) {
-        List<Integer> arr=new ArrayList<>();
         String alpha="abcdefghijklmnopqrstuvwxyz";
         StringBuilder sb=new StringBuilder();
         for(int right=s.length()-1;right>=0;right--){
@@ -10,10 +9,8 @@ class Solution {
                 n=Integer.parseInt(str);
                 right-=2;
             }
-            arr.add(n);
             sb.insert(0,alpha.charAt(n-1));
         }
-        // System.out.println(arr);
         return sb.toString();
     }
 }
