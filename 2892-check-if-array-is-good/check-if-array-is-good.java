@@ -10,7 +10,6 @@ class Solution {
             res[index++]=i;
         }
         res[index]=mx;
-        // System.out.println(Arrays.toString(res));
         Arrays.sort(nums);
         return Arrays.equals(nums,res);
     }
